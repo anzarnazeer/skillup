@@ -1,0 +1,98 @@
+.search-icon {
+    color: #5f6163;
+    position: absolute;
+    left: 10px;
+  }
+  .home-icon {
+    font-size: 28px !important;
+  }
+  .group-add-icon {
+    font-size: 28px !important;
+  }
+  .work-icon {
+    font-size: 28px !important;
+  }
+  .telegram-icon {
+    font-size: 28px !important;
+  }
+  .notifications-icon {
+    font-size: 28px !important;
+  }
+  .account-circle-icon {
+    font-size: 28px !important;
+  }
+  .home::after {
+    content: "Home";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  .group::after {
+    content: "My Network";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  .work::after {
+    content: "Jobs";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  .telegram::after {
+    content: "Messages";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  .notification::after {
+    content: "Notifications";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  .avatar::after {
+    content: "Profile";
+    display: block;
+    color: #3c3a3a;
+    font-size: 14px;
+  }
+  @media (max-width: 481px) {
+    .home-icon {
+      font-size: 25px !important;
+    }
+    .group-add-icon {
+      font-size: 26px !important;
+    }
+    .work-icon {
+      font-size: 23px !important;
+    }
+    .telegram-icon {
+      font-size: 25px !important;
+    }
+    .notifications-icon {
+      font-size: 25px !important;
+    }
+    .account-circle-icon {
+      font-size: 25px !important;
+    }
+    .home::after {
+      display: none;
+    }
+    .group::after {
+      display: none;
+    }
+    .work::after {
+      display: none;
+    }
+    .telegram::after {
+      display: none;
+    }
+    .notification::after {
+      display: none;
+    }
+    .avatar::after {
+      display: none;
+    }
+  }
+  
